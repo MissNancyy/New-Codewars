@@ -25,7 +25,7 @@ function noBoringZeros(n) {
 // OR
 function noBoringZeros(n) {
     while (n % 10 === 0 && n !== 0) {
-      n = n / 10
+      n = n / 10 
     }
     return n
   }
